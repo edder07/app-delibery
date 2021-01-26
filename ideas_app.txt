@@ -1,0 +1,40 @@
+ideas
+
+cliente 
+un pequeño perfil
+opcion de ver sus pedidos
+selecionar ciudad
+-----------------------
+desplegar todos los delivery de la ciudad
+pequeña informacion de cada delivery en el contrainer
+--------------------------
+barra con la suma del total que valla actualizando cuando se agrega mas producto
+porductos y su precio y con opcion de selecion y ventana emergente para la cantidad consultar stock
+boton listo 
+--------------
+mostrar el total a pagar
+aparezca opcion de la direccion
+forma de pago 
+nombre del remponzable
+boton listo
+----------------------------
+si la forma de pafgo es transferencia mostrar infromacion de transferecia y opcion de subir la imagen del comprobante de pago
+y boton listo
+----------------------------------------
+si es forma de pago efectivo solo el boton listo
+
+vendedor 
+formulario de registro - datos de transferencia
+subir producto con imagen y precio y stock 
+revisar pedidos
+----------------------------------------------------------------------------
+Tablas
+produtos : id, nombre, precio,stock
+cliente:id,correo,clave,celular
+vendedor:id,nombre,correo,clave,celular,rut,banco,tipo cuenta,numerocuenta,id_ciudad,direccion,logo
+pedido: id_cliente,id_vendedor,fecha,direccion,forma_de_pago,comprobante_de_pago_imagen,nombre de reemponzable,telefono
+detalle: id_pedido,id_producto,cantidad,total
+ciudad:id,nombre
+
+
+
